@@ -1,0 +1,1511 @@
+{
+  "cpus": [
+    {
+      "id": "c_amd_fx1",
+      "nome": "AMD FX-6300",
+      "marca": "AMD",
+      "socket": "AM3+",
+      "tdp": 95,
+      "score": 35
+    },
+    {
+      "id": "c_amd_fx2",
+      "nome": "AMD FX-8350",
+      "marca": "AMD",
+      "socket": "AM3+",
+      "tdp": 125,
+      "score": 45
+    },
+    {
+      "id": "c_amd_ry1_1",
+      "nome": "AMD Ryzen 3 1200",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 48
+    },
+    {
+      "id": "c_amd_ry1_2",
+      "nome": "AMD Ryzen 5 1400",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 52
+    },
+    {
+      "id": "c_amd_ry1_3",
+      "nome": "AMD Ryzen 5 1600",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 60
+    },
+    {
+      "id": "c_amd_ry1_4",
+      "nome": "AMD Ryzen 7 1700X",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 95,
+      "score": 68
+    },
+    {
+      "id": "c_amd_ry2_1",
+      "nome": "AMD Ryzen 3 2200G",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 55
+    },
+    {
+      "id": "c_amd_ry2_2",
+      "nome": "AMD Ryzen 5 2600",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 75
+    },
+    {
+      "id": "c_amd_ry2_3",
+      "nome": "AMD Ryzen 7 2700X",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 105,
+      "score": 85
+    },
+    {
+      "id": "c_amd_ry3_1",
+      "nome": "AMD Ryzen 3 3100",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 80
+    },
+    {
+      "id": "c_amd_ry3_2",
+      "nome": "AMD Ryzen 3 3300X",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 88
+    },
+    {
+      "id": "c_amd_ry3_3",
+      "nome": "AMD Ryzen 5 3600",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 100
+    },
+    {
+      "id": "c_amd_ry3_4",
+      "nome": "AMD Ryzen 7 3700X",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 130
+    },
+    {
+      "id": "c_amd_ry3_5",
+      "nome": "AMD Ryzen 9 3900X",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 105,
+      "score": 160
+    },
+    {
+      "id": "c_amd_ry4_1",
+      "nome": "AMD Ryzen 5 4600G",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 110
+    },
+    {
+      "id": "c_amd_ry5_1",
+      "nome": "AMD Ryzen 5 5500",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 120
+    },
+    {
+      "id": "c_amd_ry5_2",
+      "nome": "AMD Ryzen 5 5600",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 145
+    },
+    {
+      "id": "c_amd_ry5_3",
+      "nome": "AMD Ryzen 5 5600X",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 150
+    },
+    {
+      "id": "c_amd_ry5_4",
+      "nome": "AMD Ryzen 7 5700U",
+      "marca": "AMD",
+      "socket": "Mobile",
+      "tdp": 15,
+      "score": 90
+    },
+    {
+      "id": "c_amd_ry5_5",
+      "nome": "AMD Ryzen 7 5700X",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 65,
+      "score": 170
+    },
+    {
+      "id": "c_amd_ry5_6",
+      "nome": "AMD Ryzen 7 5800X3D",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 105,
+      "score": 210
+    },
+    {
+      "id": "c_amd_ry5_7",
+      "nome": "AMD Ryzen 9 5900X",
+      "marca": "AMD",
+      "socket": "AM4",
+      "tdp": 105,
+      "score": 225
+    },
+    {
+      "id": "c_amd_ry7_1",
+      "nome": "AMD Ryzen 5 7600",
+      "marca": "AMD",
+      "socket": "AM5",
+      "tdp": 65,
+      "score": 190
+    },
+    {
+      "id": "c_amd_ry7_2",
+      "nome": "AMD Ryzen 5 7600X",
+      "marca": "AMD",
+      "socket": "AM5",
+      "tdp": 105,
+      "score": 200
+    },
+    {
+      "id": "c_amd_ry7_3",
+      "nome": "AMD Ryzen 7 7700X",
+      "marca": "AMD",
+      "socket": "AM5",
+      "tdp": 105,
+      "score": 220
+    },
+    {
+      "id": "c_amd_ry7_4",
+      "nome": "AMD Ryzen 7 7800X3D",
+      "marca": "AMD",
+      "socket": "AM5",
+      "tdp": 120,
+      "score": 280
+    },
+    {
+      "id": "c_amd_ry7_5",
+      "nome": "AMD Ryzen 9 7900X",
+      "marca": "AMD",
+      "socket": "AM5",
+      "tdp": 170,
+      "score": 290
+    },
+    {
+      "id": "c_amd_ry7_6",
+      "nome": "AMD Ryzen 9 7950X3D",
+      "marca": "AMD",
+      "socket": "AM5",
+      "tdp": 120,
+      "score": 330
+    },
+    {
+      "id": "c_amd_ry9_1",
+      "nome": "AMD Ryzen 5 9600X",
+      "marca": "AMD",
+      "socket": "AM5",
+      "tdp": 65,
+      "score": 230
+    },
+    {
+      "id": "c_amd_ry9_2",
+      "nome": "AMD Ryzen 7 9700X",
+      "marca": "AMD",
+      "socket": "AM5",
+      "tdp": 65,
+      "score": 260
+    },
+    {
+      "id": "c_amd_ry9_3",
+      "nome": "AMD Ryzen 9 9950X",
+      "marca": "AMD",
+      "socket": "AM5",
+      "tdp": 170,
+      "score": 360
+    },
+    {
+      "id": "c_int_gen2_1",
+      "nome": "Intel Core i5-2500K",
+      "marca": "Intel",
+      "socket": "LGA1155",
+      "tdp": 95,
+      "score": 30
+    },
+    {
+      "id": "c_int_gen2_2",
+      "nome": "Intel Core i7-2600K",
+      "marca": "Intel",
+      "socket": "LGA1155",
+      "tdp": 95,
+      "score": 35
+    },
+    {
+      "id": "c_int_gen3_1",
+      "nome": "Intel Core i5-3570K",
+      "marca": "Intel",
+      "socket": "LGA1155",
+      "tdp": 77,
+      "score": 38
+    },
+    {
+      "id": "c_int_gen4_1",
+      "nome": "Intel Core i5-4460",
+      "marca": "Intel",
+      "socket": "LGA1150",
+      "tdp": 84,
+      "score": 42
+    },
+    {
+      "id": "c_int_gen4_2",
+      "nome": "Intel Core i7-4790K",
+      "marca": "Intel",
+      "socket": "LGA1150",
+      "tdp": 88,
+      "score": 50
+    },
+    {
+      "id": "c_int_gen6_1",
+      "nome": "Intel Core i5-6500",
+      "marca": "Intel",
+      "socket": "LGA1151",
+      "tdp": 65,
+      "score": 55
+    },
+    {
+      "id": "c_int_gen7_1",
+      "nome": "Intel Core i7-7700K",
+      "marca": "Intel",
+      "socket": "LGA1151",
+      "tdp": 91,
+      "score": 65
+    },
+    {
+      "id": "c_int_gen8_1",
+      "nome": "Intel Core i3-8100",
+      "marca": "Intel",
+      "socket": "LGA1151v2",
+      "tdp": 65,
+      "score": 58
+    },
+    {
+      "id": "c_int_gen8_2",
+      "nome": "Intel Core i5-8400",
+      "marca": "Intel",
+      "socket": "LGA1151v2",
+      "tdp": 65,
+      "score": 75
+    },
+    {
+      "id": "c_int_gen8_3",
+      "nome": "Intel Core i7-8700K",
+      "marca": "Intel",
+      "socket": "LGA1151v2",
+      "tdp": 95,
+      "score": 95
+    },
+    {
+      "id": "c_int_gen9_1",
+      "nome": "Intel Core i3-9100F",
+      "marca": "Intel",
+      "socket": "LGA1151v2",
+      "tdp": 65,
+      "score": 50
+    },
+    {
+      "id": "c_int_gen9_2",
+      "nome": "Intel Core i5-9400F",
+      "marca": "Intel",
+      "socket": "LGA1151v2",
+      "tdp": 65,
+      "score": 70
+    },
+    {
+      "id": "c_int_gen9_3",
+      "nome": "Intel Core i7-9700K",
+      "marca": "Intel",
+      "socket": "LGA1151v2",
+      "tdp": 95,
+      "score": 105
+    },
+    {
+      "id": "c_int_gen9_4",
+      "nome": "Intel Core i9-9900K",
+      "marca": "Intel",
+      "socket": "LGA1151v2",
+      "tdp": 95,
+      "score": 120
+    },
+    {
+      "id": "c_int_gen10_1",
+      "nome": "Intel Core i3-10100F",
+      "marca": "Intel",
+      "socket": "LGA1200",
+      "tdp": 65,
+      "score": 65
+    },
+    {
+      "id": "c_int_gen10_2",
+      "nome": "Intel Core i5-10400F",
+      "marca": "Intel",
+      "socket": "LGA1200",
+      "tdp": 65,
+      "score": 90
+    },
+    {
+      "id": "c_int_gen10_3",
+      "nome": "Intel Core i7-10700K",
+      "marca": "Intel",
+      "socket": "LGA1200",
+      "tdp": 125,
+      "score": 140
+    },
+    {
+      "id": "c_int_gen10_4",
+      "nome": "Intel Core i9-10900K",
+      "marca": "Intel",
+      "socket": "LGA1200",
+      "tdp": 125,
+      "score": 160
+    },
+    {
+      "id": "c_int_gen11_1",
+      "nome": "Intel Core i5-11400F",
+      "marca": "Intel",
+      "socket": "LGA1200",
+      "tdp": 65,
+      "score": 110
+    },
+    {
+      "id": "c_int_gen11_2",
+      "nome": "Intel Core i7-11700K",
+      "marca": "Intel",
+      "socket": "LGA1200",
+      "tdp": 125,
+      "score": 150
+    },
+    {
+      "id": "c_int_gen12_1",
+      "nome": "Intel Core i3-12100F",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 58,
+      "score": 105
+    },
+    {
+      "id": "c_int_gen12_2",
+      "nome": "Intel Core i5-12400F",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 65,
+      "score": 135
+    },
+    {
+      "id": "c_int_gen12_3",
+      "nome": "Intel Core i5-12600K",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "score": 180
+    },
+    {
+      "id": "c_int_gen12_4",
+      "nome": "Intel Core i7-12700K",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "score": 210
+    },
+    {
+      "id": "c_int_gen12_5",
+      "nome": "Intel Core i9-12900K",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 241,
+      "score": 250
+    },
+    {
+      "id": "c_int_gen13_1",
+      "nome": "Intel Core i5-13400F",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 65,
+      "score": 160
+    },
+    {
+      "id": "c_int_gen13_2",
+      "nome": "Intel Core i5-13600K",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "score": 240
+    },
+    {
+      "id": "c_int_gen13_3",
+      "nome": "Intel Core i7-13700K",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "score": 275
+    },
+    {
+      "id": "c_int_gen13_4",
+      "nome": "Intel Core i9-13900K",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 253,
+      "score": 340
+    },
+    {
+      "id": "c_int_gen14_1",
+      "nome": "Intel Core i5-14400F",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 65,
+      "score": 165
+    },
+    {
+      "id": "c_int_gen14_2",
+      "nome": "Intel Core i5-14600K",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "score": 260
+    },
+    {
+      "id": "c_int_gen14_3",
+      "nome": "Intel Core i7-14700K",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "score": 300
+    },
+    {
+      "id": "c_int_gen14_4",
+      "nome": "Intel Core i9-14900K",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 253,
+      "score": 360
+    },
+    {
+      "id": "c_int_gen14_5",
+      "nome": "Intel Core i9-14900KS",
+      "marca": "Intel",
+      "socket": "LGA1700",
+      "tdp": 253,
+      "score": 380
+    }
+  ],
+  "gpus": [
+    {
+      "id": "g_nv_700_1",
+      "nome": "NVIDIA GTX 750 Ti",
+      "marca": "NVIDIA",
+      "vram": "2GB",
+      "tdp": 60,
+      "score": 15
+    },
+    {
+      "id": "g_nv_700_2",
+      "nome": "NVIDIA GTX 760",
+      "marca": "NVIDIA",
+      "vram": "2GB",
+      "tdp": 170,
+      "score": 20
+    },
+    {
+      "id": "g_nv_700_3",
+      "nome": "NVIDIA GTX 770",
+      "marca": "NVIDIA",
+      "vram": "2GB",
+      "tdp": 230,
+      "score": 25
+    },
+    {
+      "id": "g_nv_700_4",
+      "nome": "NVIDIA GTX 780 Ti",
+      "marca": "NVIDIA",
+      "vram": "3GB",
+      "tdp": 250,
+      "score": 35
+    },
+    {
+      "id": "g_nv_900_1",
+      "nome": "NVIDIA GTX 950",
+      "marca": "NVIDIA",
+      "vram": "2GB",
+      "tdp": 90,
+      "score": 25
+    },
+    {
+      "id": "g_nv_900_2",
+      "nome": "NVIDIA GTX 960",
+      "marca": "NVIDIA",
+      "vram": "4GB",
+      "tdp": 120,
+      "score": 35
+    },
+    {
+      "id": "g_nv_900_3",
+      "nome": "NVIDIA GTX 970",
+      "marca": "NVIDIA",
+      "vram": "4GB",
+      "tdp": 145,
+      "score": 50
+    },
+    {
+      "id": "g_nv_900_4",
+      "nome": "NVIDIA GTX 980 Ti",
+      "marca": "NVIDIA",
+      "vram": "6GB",
+      "tdp": 250,
+      "score": 70
+    },
+    {
+      "id": "g_nv_1000_1",
+      "nome": "NVIDIA GTX 1050",
+      "marca": "NVIDIA",
+      "vram": "2GB",
+      "tdp": 75,
+      "score": 25
+    },
+    {
+      "id": "g_nv_1000_2",
+      "nome": "NVIDIA GTX 1050 Ti",
+      "marca": "NVIDIA",
+      "vram": "4GB",
+      "tdp": 75,
+      "score": 30
+    },
+    {
+      "id": "g_nv_1000_3",
+      "nome": "NVIDIA GTX 1060 3GB",
+      "marca": "NVIDIA",
+      "vram": "3GB",
+      "tdp": 120,
+      "score": 40
+    },
+    {
+      "id": "g_nv_1000_4",
+      "nome": "NVIDIA GTX 1060 6GB",
+      "marca": "NVIDIA",
+      "vram": "6GB",
+      "tdp": 120,
+      "score": 45
+    },
+    {
+      "id": "g_nv_1000_5",
+      "nome": "NVIDIA GTX 1070",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 150,
+      "score": 65
+    },
+    {
+      "id": "g_nv_1000_6",
+      "nome": "NVIDIA GTX 1070 Ti",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 180,
+      "score": 75
+    },
+    {
+      "id": "g_nv_1000_7",
+      "nome": "NVIDIA GTX 1080",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 180,
+      "score": 85
+    },
+    {
+      "id": "g_nv_1000_8",
+      "nome": "NVIDIA GTX 1080 Ti",
+      "marca": "NVIDIA",
+      "vram": "11GB",
+      "tdp": 250,
+      "score": 110
+    },
+    {
+      "id": "g_nv_1600_1",
+      "nome": "NVIDIA GTX 1650",
+      "marca": "NVIDIA",
+      "vram": "4GB",
+      "tdp": 75,
+      "score": 40
+    },
+    {
+      "id": "g_nv_1600_2",
+      "nome": "NVIDIA GTX 1650 Super",
+      "marca": "NVIDIA",
+      "vram": "4GB",
+      "tdp": 100,
+      "score": 50
+    },
+    {
+      "id": "g_nv_1600_3",
+      "nome": "NVIDIA GTX 1660",
+      "marca": "NVIDIA",
+      "vram": "6GB",
+      "tdp": 120,
+      "score": 55
+    },
+    {
+      "id": "g_nv_1600_4",
+      "nome": "NVIDIA GTX 1660 Super",
+      "marca": "NVIDIA",
+      "vram": "6GB",
+      "tdp": 125,
+      "score": 65
+    },
+    {
+      "id": "g_nv_1600_5",
+      "nome": "NVIDIA GTX 1660 Ti",
+      "marca": "NVIDIA",
+      "vram": "6GB",
+      "tdp": 120,
+      "score": 68
+    },
+    {
+      "id": "g_nv_2000_1",
+      "nome": "NVIDIA RTX 2060",
+      "marca": "NVIDIA",
+      "vram": "6GB",
+      "tdp": 160,
+      "score": 100
+    },
+    {
+      "id": "g_nv_2000_2",
+      "nome": "NVIDIA RTX 2060 Super",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 175,
+      "score": 115
+    },
+    {
+      "id": "g_nv_2000_3",
+      "nome": "NVIDIA RTX 2070",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 175,
+      "score": 125
+    },
+    {
+      "id": "g_nv_2000_4",
+      "nome": "NVIDIA RTX 2070 Super",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 215,
+      "score": 140
+    },
+    {
+      "id": "g_nv_2000_5",
+      "nome": "NVIDIA RTX 2080",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 215,
+      "score": 150
+    },
+    {
+      "id": "g_nv_2000_6",
+      "nome": "NVIDIA RTX 2080 Super",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 250,
+      "score": 165
+    },
+    {
+      "id": "g_nv_2000_7",
+      "nome": "NVIDIA RTX 2080 Ti",
+      "marca": "NVIDIA",
+      "vram": "11GB",
+      "tdp": 250,
+      "score": 190
+    },
+    {
+      "id": "g_nv_3000_1",
+      "nome": "NVIDIA RTX 3050",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 130,
+      "score": 85
+    },
+    {
+      "id": "g_nv_3000_2",
+      "nome": "NVIDIA RTX 3060",
+      "marca": "NVIDIA",
+      "vram": "12GB",
+      "tdp": 170,
+      "score": 135
+    },
+    {
+      "id": "g_nv_3000_3",
+      "nome": "NVIDIA RTX 3060 Ti",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 200,
+      "score": 170
+    },
+    {
+      "id": "g_nv_3000_4",
+      "nome": "NVIDIA RTX 3070",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 220,
+      "score": 200
+    },
+    {
+      "id": "g_nv_3000_5",
+      "nome": "NVIDIA RTX 3070 Ti",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 290,
+      "score": 220
+    },
+    {
+      "id": "g_nv_3000_6",
+      "nome": "NVIDIA RTX 3080 10GB",
+      "marca": "NVIDIA",
+      "vram": "10GB",
+      "tdp": 320,
+      "score": 280
+    },
+    {
+      "id": "g_nv_3000_7",
+      "nome": "NVIDIA RTX 3080 Ti",
+      "marca": "NVIDIA",
+      "vram": "12GB",
+      "tdp": 350,
+      "score": 310
+    },
+    {
+      "id": "g_nv_3000_8",
+      "nome": "NVIDIA RTX 3090",
+      "marca": "NVIDIA",
+      "vram": "24GB",
+      "tdp": 350,
+      "score": 330
+    },
+    {
+      "id": "g_nv_3000_9",
+      "nome": "NVIDIA RTX 3090 Ti",
+      "marca": "NVIDIA",
+      "vram": "24GB",
+      "tdp": 450,
+      "score": 360
+    },
+    {
+      "id": "g_nv_4000_1",
+      "nome": "NVIDIA RTX 4060",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 115,
+      "score": 165
+    },
+    {
+      "id": "g_nv_4000_2",
+      "nome": "NVIDIA RTX 4060 Ti 8GB",
+      "marca": "NVIDIA",
+      "vram": "8GB",
+      "tdp": 160,
+      "score": 190
+    },
+    {
+      "id": "g_nv_4000_3",
+      "nome": "NVIDIA RTX 4060 Ti 16GB",
+      "marca": "NVIDIA",
+      "vram": "16GB",
+      "tdp": 165,
+      "score": 195
+    },
+    {
+      "id": "g_nv_4000_4",
+      "nome": "NVIDIA RTX 4070",
+      "marca": "NVIDIA",
+      "vram": "12GB",
+      "tdp": 200,
+      "score": 240
+    },
+    {
+      "id": "g_nv_4000_5",
+      "nome": "NVIDIA RTX 4070 Super",
+      "marca": "NVIDIA",
+      "vram": "12GB",
+      "tdp": 220,
+      "score": 260
+    },
+    {
+      "id": "g_nv_4000_6",
+      "nome": "NVIDIA RTX 4070 Ti",
+      "marca": "NVIDIA",
+      "vram": "12GB",
+      "tdp": 285,
+      "score": 290
+    },
+    {
+      "id": "g_nv_4000_7",
+      "nome": "NVIDIA RTX 4070 Ti Super",
+      "marca": "NVIDIA",
+      "vram": "16GB",
+      "tdp": 285,
+      "score": 310
+    },
+    {
+      "id": "g_nv_4000_8",
+      "nome": "NVIDIA RTX 4080",
+      "marca": "NVIDIA",
+      "vram": "16GB",
+      "tdp": 320,
+      "score": 360
+    },
+    {
+      "id": "g_nv_4000_9",
+      "nome": "NVIDIA RTX 4080 Super",
+      "marca": "NVIDIA",
+      "vram": "16GB",
+      "tdp": 320,
+      "score": 380
+    },
+    {
+      "id": "g_nv_4000_10",
+      "nome": "NVIDIA RTX 4090",
+      "marca": "NVIDIA",
+      "vram": "24GB",
+      "tdp": 450,
+      "score": 550
+    },
+    {
+      "id": "g_amd_400_1",
+      "nome": "AMD Radeon RX 460",
+      "marca": "AMD",
+      "vram": "4GB",
+      "tdp": 75,
+      "score": 35
+    },
+    {
+      "id": "g_amd_400_2",
+      "nome": "AMD Radeon RX 470",
+      "marca": "AMD",
+      "vram": "4GB",
+      "tdp": 120,
+      "score": 45
+    },
+    {
+      "id": "g_amd_400_3",
+      "nome": "AMD Radeon RX 480",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 150,
+      "score": 50
+    },
+    {
+      "id": "g_amd_500_1",
+      "nome": "AMD Radeon RX 550",
+      "marca": "AMD",
+      "vram": "2GB",
+      "tdp": 50,
+      "score": 20
+    },
+    {
+      "id": "g_amd_500_2",
+      "nome": "AMD Radeon RX 560",
+      "marca": "AMD",
+      "vram": "4GB",
+      "tdp": 75,
+      "score": 38
+    },
+    {
+      "id": "g_amd_500_3",
+      "nome": "AMD Radeon RX 570",
+      "marca": "AMD",
+      "vram": "4GB",
+      "tdp": 150,
+      "score": 48
+    },
+    {
+      "id": "g_amd_500_4",
+      "nome": "AMD Radeon RX 580",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 185,
+      "score": 55
+    },
+    {
+      "id": "g_amd_500_5",
+      "nome": "AMD Radeon RX 590",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 225,
+      "score": 62
+    },
+    {
+      "id": "g_amd_vega_1",
+      "nome": "AMD Radeon RX Vega 56",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 210,
+      "score": 75
+    },
+    {
+      "id": "g_amd_vega_2",
+      "nome": "AMD Radeon RX Vega 64",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 295,
+      "score": 85
+    },
+    {
+      "id": "g_amd_5000_1",
+      "nome": "AMD Radeon RX 5500 XT",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 130,
+      "score": 60
+    },
+    {
+      "id": "g_amd_5000_2",
+      "nome": "AMD Radeon RX 5600 XT",
+      "marca": "AMD",
+      "vram": "6GB",
+      "tdp": 150,
+      "score": 90
+    },
+    {
+      "id": "g_amd_5000_3",
+      "nome": "AMD Radeon RX 5700",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 180,
+      "score": 105
+    },
+    {
+      "id": "g_amd_5000_4",
+      "nome": "AMD Radeon RX 5700 XT",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 225,
+      "score": 120
+    },
+    {
+      "id": "g_amd_6000_1",
+      "nome": "AMD Radeon RX 6400",
+      "marca": "AMD",
+      "vram": "4GB",
+      "tdp": 53,
+      "score": 40
+    },
+    {
+      "id": "g_amd_6000_2",
+      "nome": "AMD Radeon RX 6500 XT",
+      "marca": "AMD",
+      "vram": "4GB",
+      "tdp": 107,
+      "score": 55
+    },
+    {
+      "id": "g_amd_6000_3",
+      "nome": "AMD Radeon RX 6600",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 132,
+      "score": 115
+    },
+    {
+      "id": "g_amd_6000_4",
+      "nome": "AMD Radeon RX 6600 XT",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 160,
+      "score": 135
+    },
+    {
+      "id": "g_amd_6000_5",
+      "nome": "AMD Radeon RX 6700 XT",
+      "marca": "AMD",
+      "vram": "12GB",
+      "tdp": 230,
+      "score": 165
+    },
+    {
+      "id": "g_amd_6000_6",
+      "nome": "AMD Radeon RX 6800",
+      "marca": "AMD",
+      "vram": "16GB",
+      "tdp": 250,
+      "score": 200
+    },
+    {
+      "id": "g_amd_6000_7",
+      "nome": "AMD Radeon RX 6800 XT",
+      "marca": "AMD",
+      "vram": "16GB",
+      "tdp": 300,
+      "score": 230
+    },
+    {
+      "id": "g_amd_6000_8",
+      "nome": "AMD Radeon RX 6900 XT",
+      "marca": "AMD",
+      "vram": "16GB",
+      "tdp": 300,
+      "score": 260
+    },
+    {
+      "id": "g_amd_6000_9",
+      "nome": "AMD Radeon RX 6950 XT",
+      "marca": "AMD",
+      "vram": "16GB",
+      "tdp": 335,
+      "score": 280
+    },
+    {
+      "id": "g_amd_7000_1",
+      "nome": "AMD Radeon RX 7600",
+      "marca": "AMD",
+      "vram": "8GB",
+      "tdp": 165,
+      "score": 140
+    },
+    {
+      "id": "g_amd_7000_2",
+      "nome": "AMD Radeon RX 7600 XT",
+      "marca": "AMD",
+      "vram": "16GB",
+      "tdp": 190,
+      "score": 150
+    },
+    {
+      "id": "g_amd_7000_3",
+      "nome": "AMD Radeon RX 7700 XT",
+      "marca": "AMD",
+      "vram": "12GB",
+      "tdp": 245,
+      "score": 200
+    },
+    {
+      "id": "g_amd_7000_4",
+      "nome": "AMD Radeon RX 7800 XT",
+      "marca": "AMD",
+      "vram": "16GB",
+      "tdp": 263,
+      "score": 250
+    },
+    {
+      "id": "g_amd_7000_5",
+      "nome": "AMD Radeon RX 7900 GRE",
+      "marca": "AMD",
+      "vram": "16GB",
+      "tdp": 260,
+      "score": 290
+    },
+    {
+      "id": "g_amd_7000_6",
+      "nome": "AMD Radeon RX 7900 XT",
+      "marca": "AMD",
+      "vram": "20GB",
+      "tdp": 315,
+      "score": 330
+    },
+    {
+      "id": "g_amd_7000_7",
+      "nome": "AMD Radeon RX 7900 XTX",
+      "marca": "AMD",
+      "vram": "24GB",
+      "tdp": 355,
+      "score": 400
+    }
+  ],
+  "rams": [
+    { "id": "r1", "nome": "8GB (1x8GB) DDR3 1600MHz", "tdp": 5 },
+    { "id": "r2", "nome": "16GB (2x8GB) DDR3 1866MHz", "tdp": 8 },
+    { "id": "r3", "nome": "8GB (1x8GB) DDR4 2666MHz", "tdp": 5 },
+    { "id": "r4", "nome": "16GB (2x8GB) DDR4 3200MHz", "tdp": 10 },
+    { "id": "r5", "nome": "32GB (2x16GB) DDR4 3600MHz", "tdp": 15 },
+    { "id": "r6", "nome": "64GB (4x16GB) DDR4 3200MHz", "tdp": 20 },
+    { "id": "r7", "nome": "16GB (2x8GB) DDR5 4800MHz", "tdp": 12 },
+    { "id": "r8", "nome": "32GB (2x16GB) DDR5 6000MHz", "tdp": 20 },
+    { "id": "r9", "nome": "64GB (2x32GB) DDR5 6400MHz", "tdp": 25 },
+    { "id": "r10", "nome": "96GB (2x48GB) DDR5 6800MHz", "tdp": 30 },
+    { "id": "r11", "nome": "128GB (4x32GB) DDR5 6000MHz", "tdp": 45 }
+  ],
+  "armazenamento": [
+    { "id": "s1", "nome": "HD SATA 500GB 7200RPM", "tdp": 8 },
+    { "id": "s2", "nome": "HD SATA 1TB 7200RPM", "tdp": 10 },
+    { "id": "s3", "nome": "HD SATA 2TB 7200RPM", "tdp": 12 },
+    { "id": "s4", "nome": "HD SATA 4TB 5400RPM", "tdp": 8 },
+    { "id": "s5", "nome": "SSD SATA 120GB", "tdp": 2 },
+    { "id": "s6", "nome": "SSD SATA 240GB", "tdp": 2 },
+    { "id": "s7", "nome": "SSD SATA 480GB", "tdp": 3 },
+    { "id": "s8", "nome": "SSD SATA 1TB", "tdp": 4 },
+    { "id": "s9", "nome": "SSD SATA 2TB", "tdp": 5 },
+    { "id": "s10", "nome": "SSD NVMe 500GB Gen3", "tdp": 5 },
+    { "id": "s11", "nome": "SSD NVMe 1TB Gen3", "tdp": 6 },
+    { "id": "s12", "nome": "SSD NVMe 1TB Gen4", "tdp": 8 },
+    { "id": "s13", "nome": "SSD NVMe 2TB Gen4", "tdp": 10 },
+    { "id": "s14", "nome": "SSD NVMe 4TB Gen4", "tdp": 12 },
+    { "id": "s15", "nome": "SSD NVMe 2TB Gen5", "tdp": 12 },
+    { "id": "s16", "nome": "SSD NVMe 4TB Gen5", "tdp": 15 }
+  ],
+  "jogos": [
+    {
+      "id": "j_es1",
+      "nome": "League of Legends",
+      "categoria": "eSports / Leve",
+      "peso": 0.3
+    },
+    {
+      "id": "j_es2",
+      "nome": "Valorant",
+      "categoria": "eSports / Leve",
+      "peso": 0.4
+    },
+    {
+      "id": "j_es3",
+      "nome": "Counter-Strike 2 (CS2)",
+      "categoria": "eSports / Leve",
+      "peso": 0.6
+    },
+    {
+      "id": "j_es4",
+      "nome": "Dota 2",
+      "categoria": "eSports / Leve",
+      "peso": 0.5
+    },
+    {
+      "id": "j_es5",
+      "nome": "Rocket League",
+      "categoria": "eSports / Leve",
+      "peso": 0.4
+    },
+    {
+      "id": "j_es6",
+      "nome": "Brawlhalla",
+      "categoria": "eSports / Leve",
+      "peso": 0.2
+    },
+    {
+      "id": "j_es7",
+      "nome": "Rainbow Six Siege",
+      "categoria": "eSports / Leve",
+      "peso": 0.6
+    },
+    {
+      "id": "j_es8",
+      "nome": "Overwatch 2",
+      "categoria": "eSports / Leve",
+      "peso": 0.7
+    },
+    {
+      "id": "j_in1",
+      "nome": "Minecraft (Vanilla)",
+      "categoria": "Indie / Casual",
+      "peso": 0.4
+    },
+    {
+      "id": "j_in2",
+      "nome": "Minecraft (Com Shaders)",
+      "categoria": "Indie / Casual",
+      "peso": 1.2
+    },
+    {
+      "id": "j_in3",
+      "nome": "Stardew Valley",
+      "categoria": "Indie / Casual",
+      "peso": 0.1
+    },
+    {
+      "id": "j_in4",
+      "nome": "Terraria",
+      "categoria": "Indie / Casual",
+      "peso": 0.2
+    },
+    {
+      "id": "j_in5",
+      "nome": "Hades",
+      "categoria": "Indie / Casual",
+      "peso": 0.3
+    },
+    {
+      "id": "j_in6",
+      "nome": "Hollow Knight",
+      "categoria": "Indie / Casual",
+      "peso": 0.3
+    },
+    {
+      "id": "j_in7",
+      "nome": "Roblox",
+      "categoria": "Indie / Casual",
+      "peso": 0.4
+    },
+    {
+      "id": "j_in8",
+      "nome": "Among Us",
+      "categoria": "Indie / Casual",
+      "peso": 0.1
+    },
+    {
+      "id": "j_md1",
+      "nome": "Grand Theft Auto V (GTA V)",
+      "categoria": "Médio / Popular",
+      "peso": 0.8
+    },
+    {
+      "id": "j_md2",
+      "nome": "Fortnite",
+      "categoria": "Médio / Popular",
+      "peso": 0.9
+    },
+    {
+      "id": "j_md3",
+      "nome": "Apex Legends",
+      "categoria": "Médio / Popular",
+      "peso": 1.0
+    },
+    {
+      "id": "j_md4",
+      "nome": "The Sims 4",
+      "categoria": "Médio / Popular",
+      "peso": 0.5
+    },
+    {
+      "id": "j_md5",
+      "nome": "Genshin Impact",
+      "categoria": "Médio / Popular",
+      "peso": 0.8
+    },
+    {
+      "id": "j_md6",
+      "nome": "Left 4 Dead 2",
+      "categoria": "Médio / Popular",
+      "peso": 0.3
+    },
+    {
+      "id": "j_md7",
+      "nome": "Portal 2",
+      "categoria": "Médio / Popular",
+      "peso": 0.3
+    },
+    {
+      "id": "j_md8",
+      "nome": "Dead by Daylight",
+      "categoria": "Médio / Popular",
+      "peso": 0.9
+    },
+    {
+      "id": "j_md9",
+      "nome": "Sea of Thieves",
+      "categoria": "Médio / Popular",
+      "peso": 1.1
+    },
+    {
+      "id": "j_md10",
+      "nome": "Phasmophobia",
+      "categoria": "Médio / Popular",
+      "peso": 0.8
+    },
+    {
+      "id": "j_md11",
+      "nome": "Rust",
+      "categoria": "Médio / Popular",
+      "peso": 1.2
+    },
+    {
+      "id": "j_aa1",
+      "nome": "The Witcher 3: Wild Hunt",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.3
+    },
+    {
+      "id": "j_aa2",
+      "nome": "Red Dead Redemption 2",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.7
+    },
+    {
+      "id": "j_aa3",
+      "nome": "Elden Ring",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.5
+    },
+    {
+      "id": "j_aa4",
+      "nome": "God of War",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.4
+    },
+    {
+      "id": "j_aa5",
+      "nome": "Horizon Zero Dawn",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.3
+    },
+    {
+      "id": "j_aa6",
+      "nome": "Resident Evil 4 Remake",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.5
+    },
+    {
+      "id": "j_aa7",
+      "nome": "Death Stranding",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.4
+    },
+    {
+      "id": "j_aa8",
+      "nome": "Marvel's Spider-Man Remastered",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.6
+    },
+    {
+      "id": "j_aa9",
+      "nome": "Hogwarts Legacy",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.8
+    },
+    {
+      "id": "j_aa10",
+      "nome": "Forza Horizon 5",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.3
+    },
+    {
+      "id": "j_aa11",
+      "nome": "Call of Duty: Warzone",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.5
+    },
+    {
+      "id": "j_aa12",
+      "nome": "Baldur's Gate 3",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.6
+    },
+    {
+      "id": "j_aa13",
+      "nome": "Assassin's Creed Valhalla",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.5
+    },
+    {
+      "id": "j_nx1",
+      "nome": "Cyberpunk 2077 (Ultra/Ray Tracing)",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.5
+    },
+    {
+      "id": "j_nx2",
+      "nome": "Alan Wake 2",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.8
+    },
+    {
+      "id": "j_nx3",
+      "nome": "The Last of Us Part I",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.2
+    },
+    {
+      "id": "j_nx4",
+      "nome": "Microsoft Flight Simulator",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.6
+    },
+    {
+      "id": "j_nx5",
+      "nome": "ARK: Survival Ascended",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.7
+    },
+    {
+      "id": "j_nx6",
+      "nome": "Senua's Saga: Hellblade II",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.9
+    },
+    {
+      "id": "j_nx7",
+      "nome": "Dragon's Dogma 2",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.4
+    },
+    {
+      "id": "j_nx8",
+      "nome": "Starfield",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.3
+    },
+    {
+      "id": "j_nx9",
+      "nome": "Cities: Skylines II",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.5
+    },
+    {
+      "id": "j_nx10",
+      "nome": "Avatar: Frontiers of Pandora",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.4
+    },
+    {
+      "id": "j_nx11",
+      "nome": "Star Wars Jedi: Survivor",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.6
+    },
+    {
+      "id": "j_nx12",
+      "nome": "Black Myth: Wukong",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.8
+    },
+    {
+      "id": "j_in11",
+      "nome": "Poppy Playtime",
+      "categoria": "Indie / Casual",
+      "peso": 0.6
+    },
+    {
+      "id": "j_aa14",
+      "nome": "NieR:Automata",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.1
+    },
+    {
+      "id": "j_aa15",
+      "nome": "NieR:Replicant Ver 1.22474487139",
+      "categoria": "AAA / Mundo Aberto",
+      "peso": 1.2
+    },
+    {
+      "id": "j_nx13",
+      "nome": "Clair Obscur: Expedition 33",
+      "categoria": "Next-Gen / Ultra Pesado",
+      "peso": 2.8
+    }
+  ]
+}
