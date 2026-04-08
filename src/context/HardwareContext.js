@@ -1,4 +1,5 @@
-import { createContext, useState } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { createContext, useEffect, useState } from "react";
 
 export const HardwareContext = createContext();
 
@@ -13,6 +14,30 @@ export const HardwareProvider = ({ children }) => {
   const [preset, setPreset] = useState("Ultra");
 
   const [savedSetups, setSavedSetups] = useState([]);
+
+  //Esta função carrega o tudo ao Abrir o App
+  useEffect(() => {
+    const carregarDoCelular = async () => {
+      try {
+        const dadosSalvos = await AsyncStorage.getItem("@lb_setups");
+        if (dadosSalvos !== null) {
+          setSavedSetups(JSON.parse(dadosSalvos)); // Joga pro state
+        }
+      } catch (error) {
+        console.error("Erro ao buscar do celular:", error);
+      }
+    };
+
+    carregarDoCelular();
+  }, []);
+  //Esta função salva a lista atualizada no celular
+  const persistirNoCelular = async (novaLista) => {
+    try {
+      await AsyncStorage.setItem("@lb_setups", JSON.stringify(novaLista));
+    } catch (error) {
+      console.error("Erro ao salvar no celular:", error);
+    }
+  };
 
   const regrasArquitetura = {
     AM5: {
@@ -87,35 +112,38 @@ export const HardwareProvider = ({ children }) => {
   };
 
   // salva nome personalizado
-  const salvarSetupAtual = (nomePersonalizado) => {
+  const salvarSetupAtual = (nome) => {
     if (!selectedCPU || !selectedGPU) return false;
     const novoSetup = {
       id: Date.now().toString(),
-      nome: nomePersonalizado || "SETUP SEM NOME",
+      nome: nome,
       cpu: selectedCPU,
       gpu: selectedGPU,
       ram: selectedRAM,
       storage: selectedStorage,
       data: new Date().toLocaleDateString("pt-BR"),
     };
-    setSavedSetups([novoSetup, ...savedSetups]);
+    const novaLista = [novoSetup, ...savedSetups];
+    setSavedSetups(novaLista);
+    persistirNoCelular(novaLista);
     return true;
   };
 
   // Funções de editar e apagar
   const renomearSetup = (id, novoNome) => {
-    setSavedSetups(
-      savedSetups.map((setup) =>
-        setup.id === id ? { ...setup, nome: novoNome } : setup,
-      ),
+    const novaLista = savedSetups.map((setup) =>
+      setup.id === id ? { ...setup, nome: novoNome } : setup,
     );
+    setSavedSetups(novaLista);
+    persistirNoCelular(novaLista);
   };
 
   const excluirSetup = (id) => {
-    setSavedSetups(savedSetups.filter((setup) => setup.id !== id));
+    const novaLista = savedSetups.filter((setup) => setup.id !== id);
+    setSavedSetups(novaLista);
+    persistirNoCelular(novaLista);
   };
 
-  // limpa tudo para nova montagem
   const resetarSetup = () => {
     setSelectedCPU(null);
     setSelectedGPU(null);

@@ -1,16 +1,16 @@
 import * as Sharing from "expo-sharing";
 import { useContext, useMemo, useRef, useState } from "react";
 import {
-    Alert,
-    Dimensions,
-    FlatList,
-    Modal,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  Alert,
+  Dimensions,
+  FlatList,
+  Modal,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import ViewShot from "react-native-view-shot";
 import { HardwareContext } from "../context/HardwareContext";
@@ -41,8 +41,8 @@ export default function Result({ navigation }) {
 
   // Estados dos Modais
   const [modalJogosVisible, setModalJogosVisible] = useState(false);
+  const [modalSucessoVisible, setModalSucessoVisible] = useState(false);
   const [searchJogo, setSearchJogo] = useState("");
-
   const [modalSaveVisible, setModalSaveVisible] = useState(false);
   const [nomeSetup, setNomeSetup] = useState("");
 
@@ -110,10 +110,10 @@ export default function Result({ navigation }) {
       Alert.alert("Aviso", "Por favor, digite um nome para o seu setup.");
       return;
     }
-    salvarSetupAtual(nomeSetup); // Passa o nome pro Contexto
+    salvarSetupAtual(nomeSetup); // Passa o nome para o Contexto
     setModalSaveVisible(false);
     setNomeSetup("");
-    Alert.alert("Sucesso", "Setup salvo no banco de dados!");
+    setModalSucessoVisible(true);
   };
 
   const handleCompartilhar = async () => {
@@ -155,7 +155,7 @@ export default function Result({ navigation }) {
           <View style={{ backgroundColor: "#1a161d", paddingBottom: 20 }}>
             <View style={styles.header}>
               <Text style={styles.headerSubtitle}>
-                Relatório de engenharia de hardware 
+                Relatório de engenharia de hardware
               </Text>
             </View>
 
@@ -263,9 +263,7 @@ export default function Result({ navigation }) {
               </View>
             </View>
 
-            <Text style={styles.sectionLabel}>
-              PERFORMANCE DE HARDWARE
-            </Text>
+            <Text style={styles.sectionLabel}>PERFORMANCE DE HARDWARE</Text>
             <View style={styles.chartBox}>
               <View style={styles.chartRow}>
                 <Text style={styles.chartLabel}>Processamento bruto (CPU)</Text>
@@ -428,7 +426,43 @@ export default function Result({ navigation }) {
           </View>
         </View>
       </Modal>
+      {/* Modal de Sucesso */}
+      <Modal
+        visible={modalSucessoVisible}
+        transparent={true}
+        animationType="fade"
+      >
+        <View style={styles.modalCenteredOverlay}>
+          <View style={styles.modalCenteredContainer}>
+            <Text
+              style={[
+                styles.modalTitle,
+                { color: "#4CAF50", textAlign: "center" },
+              ]}
+            >
+              SUCESSO!
+            </Text>
+            <Text
+              style={[
+                styles.modalSubtitle,
+                { textAlign: "center", marginBottom: 25 },
+              ]}
+            >
+              Setup salvo no banco de dados.
+            </Text>
 
+            <TouchableOpacity
+              style={[
+                styles.modalBtnConfirm,
+                { width: "100%", alignItems: "center" },
+              ]}
+              onPress={() => setModalSucessoVisible(false)}
+            >
+              <Text style={styles.modalBtnConfirmText}>OK</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
       {/* seletor do jogos */}
       <Modal
         visible={modalJogosVisible}

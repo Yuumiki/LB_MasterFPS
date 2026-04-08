@@ -1,13 +1,13 @@
 import { useContext, useState } from "react";
 import {
-    Alert,
-    FlatList,
-    Modal,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  Alert,
+  FlatList,
+  Modal,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { HardwareContext } from "../context/HardwareContext";
 
@@ -26,6 +26,8 @@ export default function SavedScreen({ navigation }) {
   const [modalEditVisible, setModalEditVisible] = useState(false);
   const [setupEmEdicao, setSetupEmEdicao] = useState(null);
   const [novoNome, setNovoNome] = useState("");
+  const [modalDeleteVisible, setModalDeleteVisible] = useState(false);
+  const [setupToDelete, setSetupToDelete] = useState(null);
 
   const carregarSetup = (setup) => {
     setSelectedCPU(setup.cpu);
@@ -51,18 +53,14 @@ export default function SavedScreen({ navigation }) {
   };
 
   const handleExcluir = (id) => {
-    Alert.alert(
-      "Confirmar Exclusão",
-      "Tem certeza que deseja apagar este setup?",
-      [
-        { text: "CANCELAR", style: "cancel" },
-        {
-          text: "APAGAR",
-          onPress: () => excluirSetup(id),
-          style: "destructive",
-        },
-      ],
-    );
+    setSetupToDelete(id);
+    setModalDeleteVisible(true);
+  };
+
+  const confirmarExclusao = () => {
+    if (setupToDelete) excluirSetup(setupToDelete);
+    setModalDeleteVisible(false);
+    setSetupToDelete(null);
   };
 
   const iniciarNovaMontagem = () => {
@@ -163,6 +161,40 @@ export default function SavedScreen({ navigation }) {
                 onPress={salvarEdicao}
               >
                 <Text style={styles.modalBtnConfirmText}>ATUALIZAR</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </View>
+      </Modal>
+      {/* exclusão */}
+      <Modal
+        visible={modalDeleteVisible}
+        transparent={true}
+        animationType="fade"
+      >
+        <View style={styles.modalOverlay}>
+          <View style={styles.modalContainer}>
+            <Text style={[styles.modalTitle, { color: "#ff4d4d" }]}>
+              CONFIRMAR EXCLUSÃO
+            </Text>
+            <Text style={[styles.modalSubtitle, { marginBottom: 25 }]}>
+              Tem certeza que deseja apagar permanentemente este setup?
+            </Text>
+
+            <View style={styles.modalBtnRow}>
+              <TouchableOpacity
+                style={styles.modalBtnCancel}
+                onPress={() => setModalDeleteVisible(false)}
+              >
+                <Text style={styles.modalBtnCancelText}>CANCELAR</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[styles.modalBtnConfirm, { backgroundColor: "#ff4d4d" }]}
+                onPress={confirmarExclusao}
+              >
+                <Text style={[styles.modalBtnConfirmText, { color: "#fff" }]}>
+                  APAGAR
+                </Text>
               </TouchableOpacity>
             </View>
           </View>
