@@ -177,7 +177,12 @@ export default function SavedScreen({ navigation }) {
             <Text style={[styles.modalTitle, { color: "#ff4d4d" }]}>
               CONFIRMAR EXCLUSÃO
             </Text>
-            <Text style={[styles.modalSubtitle, { marginBottom: 25 }]}>
+            <Text
+              style={[
+                styles.modalSubtitle,
+                { marginBottom: 25, color: "#FFFFFF" },
+              ]}
+            >
               Tem certeza que deseja apagar permanentemente este setup?
             </Text>
 
